@@ -2,6 +2,7 @@
   background-color: #e4f9f5;
   position: relative;
   padding-top: 50px;
+  padding-bottom: 10px;
 }
 h1{
   font-size: 50px;
@@ -21,6 +22,7 @@ h2{
 h3{
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
+  font-size: 15px;
   letter-spacing: 3px;
 }
 
@@ -88,11 +90,12 @@ a
 }
 
 hr{
-  width: 10%;
+  width: 5%;
   border-style: none;
   border-top-style: dotted;
-  border-top-width: 15px;
+  border-top-width: 10px;
   color: #687466;
+  padding-bottom: 20px;
 }
 .footer{
   padding: 30px;
@@ -147,4 +150,7 @@ hr{
 }
 .profile:hover .h{
   opacity: 1;
+}
+.middle-container{
+  padding-top: 10px;
 }

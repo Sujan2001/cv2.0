@@ -1,0 +1,150 @@
+.s{
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 50px;
+}
+h1{
+  font-size: 50px;
+  width: 450px;
+    height:4.99rem;
+  font-family: 'Sacramento', cursive;
+    margin: 0 auto 0 auto;
+    color:  #66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.4rem;
+  margin-top: 10px;
+  color:  #66BFBF;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  letter-spacing: 3px;
+}
+
+body{
+  background-color:#d4ebd0;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+
+}
+
+.bottom-cloud{
+  position: absolute;
+}
+
+.top-cloud{
+  position: relative;
+  left: 200px;
+
+}
+a{
+  color: #11999E;
+}
+.skills{
+  width: 50%;
+  margin:0 auto;
+
+}
+img{
+  border-radius: 50%;
+  text-align: left;
+}
+p{
+  text-align: left;
+  line-height: 2;
+}
+.cpy{
+  text-align: center;
+}
+.Hello{
+  text-align: center;
+}
+.block{
+  height: 150px;
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.webd{
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.skill-row{
+  height: 180px;
+  margin-top: 50px;
+}
+a
+{
+  line-height: 3;
+}
+
+hr{
+  width: 10%;
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 15px;
+  color: #687466;
+}
+.footer{
+  padding: 30px;
+  background-color: #aacfcf;
+}
+.footer-Insta{
+  width: 3%;
+  height: 3%;
+  margin-right: 10px;
+}
+.footer-twitter{
+  width: 3%;
+  height: 3%;
+}
+.footer-fb{
+  width: 3%;
+  height: 3%;
+  margin-left: 20px;
+}
+.ab{
+  letter-spacing: 3px;
+  transition: 2.5s ease;
+  opacity: 0;
+}
+
+.skill-row:hover .ab {
+  opacity: 1;
+}
+.skill-row:hover .block{
+  opacity: 1;
+}
+.skill-row{
+  position: relative;
+}
+.skill-row:hover .webd{
+  opacity: 1;
+}
+.Hello{
+  transition: 2.0s ease;
+  opacity: 0;
+}
+.profile:hover .Hello{
+  opacity: 1;
+}
+.h{
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.4rem;
+  margin-top: 10px;
+  color:  #66BFBF;
+  opacity: 0;
+  transition: 2.0s ease;
+}
+.profile:hover .h{
+  opacity: 1;
+}
